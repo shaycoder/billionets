@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    overflow-x: hidden; 
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text-yellow {
+    color: $yellow;
+}
+
+.text-white {
+    color: $white;
+}
+
+.text-yellow, .text-white {
+    font-size: 125%;
+}
+
+p {
+    font-size: 1.12rem;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+}
+
+li {
+    font-size: 1.1rem;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.fa-li, .fa-clr {
+    font-size: 1.25rem;
+}
+
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    @mixin atMedium {
+        right: 30px;
+    }
+    z-index: 99;
+    font-size: 1.5rem;
+
+    a {
+       color: $white;
+    }
+}
