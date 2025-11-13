@@ -25,8 +25,13 @@ img {
     color: $white;
 }
 
+.text-grey {
+    color: #474646;
+}
+
 .text-yellow, .text-white {
-    font-size: 125%;
+    /*font-size: 125%;*/
+    font-size: 100%;
 }
 
 p {

@@ -16,7 +16,6 @@ footer {
         width: 150px;
         margin: 0 auto 1.5rem auto; 
         @mixin atMedium {
-            width: 200px;
             margin: 0;
         }
     }

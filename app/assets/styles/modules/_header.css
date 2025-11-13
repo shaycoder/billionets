@@ -21,6 +21,10 @@
 
     img {
         width: 150px;
+        padding: 1.5rem;
+        @mixin forSmall {
+            display: none;
+        }
     }
 
     ul {
@@ -74,8 +78,8 @@
         width: 20px;
         height: 19px;
         position: absolute;
-        top: 40px;
-        right: 20px;
+        top: 20px;
+        right: 10px;
         z-index: 10;
 
         &::before {
